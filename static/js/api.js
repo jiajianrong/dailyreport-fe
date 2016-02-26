@@ -10,6 +10,9 @@ define('static/js/api.js', function (require, exports, module) {
 		URL = host + port + path;
 		
 	var userIds = {
+	    '3787': '马彩鸿',
+	    '6511': '郎勇',
+	    
 	    '4667': '沈云',
 	    '4513': '左俊俊',
 	    '5024': '贾建容',
