@@ -28,7 +28,7 @@ define('static/js/api.js', function (require, exports, module) {
 	    's1279': '张效玮',
         'S1279': '张效玮',
 	    
-	    'l2045': '谢文博'
+	    'l2045': '谢文博',
 	    'L2045': '谢文博'
 	};
 	
