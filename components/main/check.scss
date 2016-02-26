@@ -1,0 +1,48 @@
+#check {
+	padding: 10px;
+	.history {
+		line-height: 2.5;
+		color: #999;
+	}
+	.icon {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		background-color: #a6bbb6;
+		border-radius: 50%;
+		margin-right: 5px;
+		text-align: center;
+	}
+	.history-list {
+	    line-height: 20px;
+	    
+		.item {
+			position: relative;
+			padding: 10px 0;
+    		text-overflow: ellipsis;
+    		overflow: hidden;
+			&:after {
+				content: '';
+				width: 100%;
+				height: 1px;
+				line-height: 0;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				background-color: #a6bbb6;
+			}
+		}
+		.history-title {
+			display: inline-block;
+		}
+	}
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) {
+	.history-list .item {
+		&:after {
+			content: '';
+			transform: scaleY(.5);
+			-webkit-transform: scaleY(.5);
+		}
+	}
+}

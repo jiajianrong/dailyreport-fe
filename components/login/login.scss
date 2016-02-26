@@ -1,0 +1,40 @@
+.logo {
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #a6bbb6;
+  font-size: 48px;
+  margin-top: 40px; }
+
+.bd {
+  padding: 20px; }
+
+.row {
+  padding: 5px; }
+
+.warmInfo {
+  display: none; }
+
+.warm-transition {
+  transition: all .3s ease;
+  color: red;
+  display: block;
+  font-size: 12px;
+  padding: 9px 3px 0 3px; }
+
+.warm-enter {
+  padding: 0;
+  opacity: 0; }
+
+.warm-leave {
+  height: 0;
+  padding: 0 0 0 13px;
+  opacity: 0; }
+.login-transition {
+	transition: all .2s ease;
+}
+.login-enter, .login-leave {
+    padding: 0;
+    opacity: 0;
+}
